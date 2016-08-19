@@ -1,11 +1,15 @@
 #!/usr/bin/perl
 
+# This program provides all the combinations of change (pennies, nickels,
+# dimes, quarters) for a given amount. There is a dynamic programming 
+# solution to this problem but this is not an implementation using that
+# method. 
+
 # 1. requires variables to be declared, local not accepted this
 #    merly redeclares an existing variable. 
 # 2. disable symbolic references use of variables to name variables.
 # 3. bareword identifiers, where bareword not quoted can be a string or
 #    and identifier. 
-# 
 use strict;
 use warnings;
 use Readonly;
